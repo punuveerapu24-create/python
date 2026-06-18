@@ -19,5 +19,5 @@ pokemon_info = get_pokemon_info(pokemon_name)
 if pokemon_info:
     print(f"Name: {pokemon_info['name'].capitalize()}")
     print(f"Id: #{pokemon_info['id']}")
-    print(f"Weight: {pokemon_info['weight']}lbs")
-    print(f"Height: {pokemon_info['height']}'inchs")
+    print(f"Weight: {pokemon_info['weight']/10} kgs")
+    print(f"Height: {pokemon_info['height']/10}'meters")
